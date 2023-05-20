@@ -1,5 +1,5 @@
 {
-  "name": "test-coverage-cli",
+  "name": "@ur-constructions/test-coverage-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,7 +19,7 @@
     "README.md"
   ],
   "publishConfig": {
-    "<scope>:registry": "http://nexus.ur.com.cn/repository/npm-host"
+    "@ur-constructions:registry": "http://nexus.ur.com.cn/repository/npm-host"
   },
   "keywords": [],
   "author": "",
