@@ -7,7 +7,19 @@
     "cli-test": "lib/commands/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prerelease": "pnpm version prerelease",
+    "patch": "pnpm version patch",
+    "minor": "pnpm version minor",
+    "major": "pnpm version major",
+    "prepublishOnly": "pnpm run build"
+  },
+  "files": [
+    "lib",
+    "test-coverage.config.js",
+    "README.md"
+  ],
+  "publishConfig": {
+    "<scope>:registry": "http://nexus.ur.com.cn/repository/npm-host"
   },
   "keywords": [],
   "author": "",
