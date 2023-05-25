@@ -38,7 +38,7 @@ pipeline {
 
             environment {
               HARBOR_HOST = 'bytest-harbor.ur.com.cn'
-              HARBOR_NAMESPACE = 'ur-utils-dev'
+              HARBOR_NAMESPACE = 'ur-utils-test-coverage-cli-dev'
               HARBOR_CREDENTIAL_ID = 'pipeline-user-harbor'
             }
 
