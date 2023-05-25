@@ -54,13 +54,13 @@ pipeline {
 
             post {
                 aborted {
-                sh 'python `pwd`/notify-front.py $APP_NAME $HARBOR_NAMESPACE $GITLAB_URL dev发布取消 $WX_WORK_TOKEN'
+                sh 'python `pwd`/notify-qywx.py $APP_NAME $HARBOR_NAMESPACE $GITLAB_URL dev发布取消 $WX_WORK_TOKEN'
                 }
                 success {
-                sh 'python `pwd`/notify-front.py $APP_NAME $HARBOR_NAMESPACE $GITLAB_URL dev发布成功 $WX_WORK_TOKEN'
+                sh 'python `pwd`/notify-qywx.py $APP_NAME $HARBOR_NAMESPACE $GITLAB_URL dev发布成功 $WX_WORK_TOKEN'
                 }
                 failure {
-                sh 'python `pwd`/notify-front.py $APP_NAME $HARBOR_NAMESPACE $GITLAB_URL dev发布失败 $WX_WORK_TOKEN'
+                sh 'python `pwd`/notify-qywx.py $APP_NAME $HARBOR_NAMESPACE $GITLAB_URL dev发布失败 $WX_WORK_TOKEN'
             }
             }           
       } 
@@ -82,13 +82,13 @@ pipeline {
 
         post {
             aborted {
-            sh 'python `pwd`/notify-front.py $APP_NAME $HARBOR_NAMESPACE $GITLAB_URL prod发布取消 $WX_WORK_TOKEN'
+            sh 'python `pwd`/notify-qywx.py $APP_NAME $HARBOR_NAMESPACE $GITLAB_URL prod发布取消 $WX_WORK_TOKEN'
             }
             success {
-            sh 'python `pwd`/notify-front.py $APP_NAME $HARBOR_NAMESPACE $GITLAB_URL prod发布成功 $WX_WORK_TOKEN'
+            sh 'python `pwd`/notify-qywx.py $APP_NAME $HARBOR_NAMESPACE $GITLAB_URL prod发布成功 $WX_WORK_TOKEN'
             }
             failure {
-            sh 'python `pwd`/notify-front.py $APP_NAME $HARBOR_NAMESPACE $GITLAB_URL prod发布失败 $WX_WORK_TOKEN'
+            sh 'python `pwd`/notify-qywx.py $APP_NAME $HARBOR_NAMESPACE $GITLAB_URL prod发布失败 $WX_WORK_TOKEN'
          }
         }           
       }
