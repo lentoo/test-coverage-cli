@@ -17,7 +17,7 @@ specifiers:
   istanbul-lib-report: ^3.0.0
   istanbul-lib-source-maps: ^4.0.1
   istanbul-reports: ^3.1.5
-  istanbul-reports-async: 3.1.6-beta.0
+  istanbul-reports-async: 3.1.6
   make-dir: ^3.1.0
   p-map: 4.0.0
   typescript: ^4.9.3
@@ -42,7 +42,7 @@ dependencies:
   istanbul-lib-report: registry.npmmirror.com/istanbul-lib-report/3.0.0
   istanbul-lib-source-maps: registry.npmmirror.com/istanbul-lib-source-maps/4.0.1
   istanbul-reports: registry.npmmirror.com/istanbul-reports/3.1.5
-  istanbul-reports-async: 3.1.6-beta.0
+  istanbul-reports-async: 3.1.6
   make-dir: registry.npmmirror.com/make-dir/3.1.0
   p-map: registry.npmmirror.com/p-map/4.0.0
   typescript: registry.npmmirror.com/typescript/4.9.3
@@ -120,8 +120,8 @@ packages:
       supports-color: 7.2.0
     dev: false
 
-  /istanbul-reports-async/3.1.6-beta.0:
-    resolution: {integrity: sha512-TwN09JuXaV5DfxsQDW5z8EEt9LEfbXjhMnoJsnnAtzb5c0GYogOSIfH8PYb8FtffkXyqfYnpjhvxgm0kyFHY1w==}
+  /istanbul-reports-async/3.1.6:
+    resolution: {integrity: sha512-H1dca3APRzpVzaGqdYS+c+KQtjDXdWmPnHmbXp9zBlSgnQSV3iSeF6GIHuf0mGkA6b7Oj72GuIHT7SwjpuiP5w==}
     engines: {node: '>=8'}
     dependencies:
       html-escaper: 2.0.2
