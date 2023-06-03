@@ -10,8 +10,7 @@
     "prerelease": "pnpm version prerelease",
     "patch": "pnpm version patch",
     "minor": "pnpm version minor",
-    "major": "pnpm version major",
-    "prepublishOnly": "pnpm run build"
+    "major": "pnpm version major"
   },
   "files": [
     "lib",
