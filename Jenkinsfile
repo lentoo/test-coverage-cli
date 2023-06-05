@@ -44,7 +44,7 @@ pipeline {
 
             steps{
                 container ('nodejs') {
-                  // sh 'npm config set registry http://nexus.ur.com.cn/repository/npm-group/'
+                  sh 'npm config set registry http://nexus.ur.com.cn/repository/npm-group/'
                   sh 'npm install -g npm-cli-adduser'
                   sh 'npm-cli-adduser -u pipeline-user -p !Q2w3e4r -e pipeline-user@ur.com.cn -r http://nexus.ur.com.cn/repository/npm-host'
                   sh 'npm install'
@@ -72,7 +72,7 @@ pipeline {
 
             steps{
                 container ('nodejs') {
-                  // sh 'npm config set registry http://nexus.ur.com.cn/repository/npm-group/'
+                  sh 'npm config set registry http://nexus.ur.com.cn/repository/npm-group/'
                   sh 'npm install -g npm-cli-adduser'
                   sh 'npm-cli-adduser -u pipeline-user -p !Q2w3e4r -e pipeline-user@ur.com.cn -r http://nexus.ur.com.cn/repository/npm-host'
                   sh 'yarn install'
