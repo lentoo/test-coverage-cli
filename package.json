@@ -37,6 +37,7 @@
     "glob": "^8.0.3",
     "istanbul": "^0.4.5",
     "istanbul-lib-coverage": "^3.2.0",
+    "istanbul-lib-coverage-increment": "^3.2.0",
     "istanbul-lib-instrument": "^5.2.1",
     "istanbul-lib-report": "^3.0.0",
     "istanbul-lib-source-maps": "^4.0.1",
