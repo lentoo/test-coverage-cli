@@ -10,9 +10,11 @@ specifiers:
   babel-preset-typescript: 7.0.0-alpha.19
   bluebird: ^3.7.2
   convert-source-map: ^2.0.0
+  gitdiff-parser: ^0.3.1
   glob: ^8.0.3
   istanbul: ^0.4.5
   istanbul-lib-coverage: ^3.2.0
+  istanbul-lib-coverage-increment: ^3.2.0
   istanbul-lib-instrument: ^5.2.1
   istanbul-lib-report: ^3.0.0
   istanbul-lib-source-maps: ^4.0.1
@@ -35,9 +37,11 @@ dependencies:
   babel-preset-typescript: registry.npmmirror.com/babel-preset-typescript/7.0.0-alpha.19
   bluebird: registry.npmmirror.com/bluebird/3.7.2
   convert-source-map: registry.npmmirror.com/convert-source-map/2.0.0
+  gitdiff-parser: 0.3.1
   glob: registry.npmmirror.com/glob/8.0.3
   istanbul: registry.npmmirror.com/istanbul/0.4.5
   istanbul-lib-coverage: registry.npmmirror.com/istanbul-lib-coverage/3.2.0
+  istanbul-lib-coverage-increment: 3.2.0
   istanbul-lib-instrument: registry.npmmirror.com/istanbul-lib-instrument/5.2.1
   istanbul-lib-report: registry.npmmirror.com/istanbul-lib-report/3.0.0
   istanbul-lib-source-maps: registry.npmmirror.com/istanbul-lib-source-maps/4.0.1
@@ -97,6 +101,10 @@ packages:
       mime-types: 2.1.35
     dev: false
 
+  /gitdiff-parser/0.3.1:
+    resolution: {integrity: sha512-YQJnY8aew65id8okGxKCksH3efDCJ9HzV7M9rsvd65habf39Pkh4cgYJ27AaoDMqo1X98pgNJhNMrm/kpV7UVQ==}
+    dev: false
+
   /has-flag/4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
@@ -104,6 +112,11 @@ packages:
 
   /html-escaper/2.0.2:
     resolution: {integrity: sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==}
+    dev: false
+
+  /istanbul-lib-coverage-increment/3.2.0:
+    resolution: {integrity: sha512-3TrrglhXxVglia5bufN/bmgsHQ1OAkwgt9FaDWgeHefWm9HCbFbGOhzRTKN/1imvKcfYXLqa7l2g9duGaw7MdA==}
+    engines: {node: '>=8'}
     dev: false
 
   /istanbul-lib-coverage/3.2.0:

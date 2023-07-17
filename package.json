@@ -33,6 +33,7 @@
     "babel-preset-typescript": "7.0.0-alpha.19",
     "bluebird": "^3.7.2",
     "convert-source-map": "^2.0.0",
+    "gitdiff-parser": "^0.3.1",
     "glob": "^8.0.3",
     "istanbul": "^0.4.5",
     "istanbul-lib-coverage": "^3.2.0",
