@@ -1,6 +1,6 @@
 {
   "name": "@ur-constructions/test-coverage-cli",
-  "version": "1.0.3-beta.5",
+  "version": "1.0.3-beta.6",
   "description": "",
   "main": "index.js",
   "bin": {
